@@ -40,7 +40,7 @@ Clock.propTypes = {
 
 From within this `prop`, we can define an object which has the key of a prop as the name of the prop we are defining and a value defines the type (or types) it should be defined as.
 
-For instance, the `Header` component we built a few days ago accepts a a prop called `title` and we expect it to be a string. We can define it's type to be a string as such:
+For instance, the `Header` component we built a few days ago accepts a prop called `title` and we expect it to be a string. We can define it's type to be a string as such:
 
 > First, we'll need to `import` the `PropTypes` package from the `prop-types` package using the `import` keyword again:
 >
